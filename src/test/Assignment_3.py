@@ -151,6 +151,7 @@ def isPD(matrix):
             if c > r:
                 if matrix[c][r] != matrix[r][c]:
                     symFlag = "False"
+                    posFlag = "False"
             c = c + 1
         r = r + 1
     if symFlag == "True":
